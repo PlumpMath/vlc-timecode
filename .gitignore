@@ -1,4 +1,6 @@
 /.vs
 /packages
+publish/
 bin/
 obj/
+*.user

@@ -41,11 +41,12 @@ namespace VlcTimecode {
 			};
 		}
 
-		private void button1_Click(Object sender, EventArgs e)
-		{
-			this.textBox1.Focus();
-			this.textBox1.SelectAll();
-			TimeCoder.GetTimecode();
+		private void label2_Click(Object sender, EventArgs e) {
+
+		}
+
+		private void tableLayoutPanel1_Paint(Object sender, PaintEventArgs e) {
+
 		}
 	}
 }
